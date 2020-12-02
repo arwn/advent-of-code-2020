@@ -1,6 +1,6 @@
 expenses = {}
 
-for line in open('expenses2', 'r'):
+for line in open('expenses', 'r'):
     expenses[int(line)] = True
 
 for a in expenses:
